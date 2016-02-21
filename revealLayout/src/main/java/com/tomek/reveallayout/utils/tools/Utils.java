@@ -1,4 +1,4 @@
-package com.tomek.reveallayout.reveal.utils.tools;
+package com.tomek.reveallayout.utils.tools;
 
 import android.app.Activity;
 import android.app.Dialog;

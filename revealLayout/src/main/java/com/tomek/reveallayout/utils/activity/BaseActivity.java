@@ -1,4 +1,4 @@
-package com.tomek.reveallayout.reveal.utils.activity;
+package com.tomek.reveallayout.utils.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
