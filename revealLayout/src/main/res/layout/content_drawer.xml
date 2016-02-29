@@ -5,31 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.tomek.reveallayout.reveal.activity.DrawerActivity"
-    tools:showIn="@layout/activity_drawer">
+    tools:context="com.tomek.reveallayout.reveal.activity.DrawerActivity">
+    <!--tools:showIn="@layout/activity_drawer">-->
 
 
 
 
 
-    <LinearLayout
+    <View
         android:id="@+id/navigation"
-        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blue_600"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
         android:layout_alignParentBottom="true">
 
-        <ImageView
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:id="@+id/drawer"
-            android:src="@drawable/ic_explore_white_48dp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"/>
 
-    </LinearLayout>
+    </View>
 
     <io.codetail.widget.RevealLinearLayout
         android:id="@+id/reveal"
@@ -57,5 +48,20 @@
 
 
     </io.codetail.widget.RevealLinearLayout>
+
+    <ImageView
+        android:background="?android:attr/selectableItemBackground"
+    android:layout_marginBottom="15dp"
+        android:clickable="true"
+        android:id="@+id/drawer"
+        android:src="@drawable/drawer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:cropToPadding="true"
+        />
+
+
 
 </RelativeLayout>

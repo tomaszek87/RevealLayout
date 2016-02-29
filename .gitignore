@@ -1,0 +1,62 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+#Android generated
+bin
+gen
+lint.xml
+lint
+
+#Eclipse
+.project
+.classpath
+.settings
+.checkstyle
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+
+# Built application files
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+#vi
+*.swp
+
+#other editors
+*.bak
+
+#Maven
+target
+release.properties
+pom.xml.*
+
+#Ant
+build.xml
+ant.properties
+proguard.cfg
+proguard-project.txt
+
+#Other
+Thumbs.db
+tmp
+*.tgz
+*.lck
+searchview/src/main/java/com/lapism/searchview/SearchItem.java
